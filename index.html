@@ -227,6 +227,11 @@
   .office dt{color:var(--muted-2);font-size:.7rem;letter-spacing:.16em;text-transform:uppercase;padding-top:3px}
   .office dd{color:var(--ivory)}
   .office dd a:hover{color:var(--gold-soft)}
+  .office-map{margin-top:26px;border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);line-height:0;box-shadow:0 14px 36px -26px rgba(50,38,14,.4)}
+  .office-map iframe{width:100%;height:230px;border:0;display:block}
+  .office-dir{display:inline-flex;align-items:center;gap:8px;margin-top:16px;font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:var(--gold);font-weight:600}
+  .office-dir:hover{color:var(--gold-deep)}
+  .office-dir svg{width:14px;height:14px}
   .assurance{
     margin-top:46px;border:1px solid var(--line-soft);padding:30px clamp(26px,3vw,40px);
     display:flex;gap:28px;align-items:center;flex-wrap:wrap;background:var(--ink-2);
@@ -244,6 +249,9 @@
   .foot-col h4{font-family:var(--body);font-size:.72rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:600;margin-bottom:18px}
   .foot-col a,.foot-col p{display:block;color:var(--muted);font-size:.88rem;margin-bottom:11px;transition:color .25s ease}
   .foot-col a:hover{color:var(--gold-soft)}
+  .foot-social{display:inline-flex;align-items:center;gap:9px;margin-top:6px;padding:9px 15px;border:1px solid var(--line);border-radius:var(--radius);font-size:.78rem;letter-spacing:.04em;transition:background .3s var(--ease),color .3s var(--ease),border-color .3s var(--ease)}
+  .foot-social svg{width:16px;height:16px;flex:none}
+  .foot-social:hover{background:var(--gold);border-color:var(--gold);color:var(--paper)!important}
   .foot-bottom{margin-top:54px;padding-top:24px;border-top:1px solid var(--line-soft);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px}
   .foot-bottom span{font-size:.74rem;color:var(--muted-2);letter-spacing:.04em}
 
@@ -711,6 +719,13 @@
           <dt>Tel</dt><dd><a href="tel:+6049611745">04-961 1745</a></dd>
           <dt>Email</dt><dd><a href="mailto:cindylgk@cncolaw.my">cindylgk@cncolaw.my</a></dd>
         </dl>
+        <div class="office-map">
+          <iframe title="Map to Cindy Ng & Co. Langkawi office" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=75B%20Dayang%20Walk%2C%20Jalan%20Pelangi%201%2C%2007000%20Langkawi%2C%20Kedah&output=embed"></iframe>
+        </div>
+        <a class="office-dir" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=75B%20Dayang%20Walk%2C%20Jalan%20Pelangi%201%2C%2007000%20Langkawi%2C%20Kedah">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>Get directions
+        </a>
       </div>
       <div class="office">
         <span class="otag">Penang</span>
@@ -720,6 +735,13 @@
           <dt>Tel</dt><dd><a href="tel:+6045108411">04-510 8411</a></dd>
           <dt>Email</dt><dd><a href="mailto:cindypg@cncolaw.my">cindypg@cncolaw.my</a></dd>
         </dl>
+        <div class="office-map">
+          <iframe title="Map to Cindy Ng & Co. Penang office" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=65A%20Lebuh%20Melaka%2C%2010400%20George%20Town%2C%20Pulau%20Pinang&output=embed"></iframe>
+        </div>
+        <a class="office-dir" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&destination=65A%20Lebuh%20Melaka%2C%2010400%20George%20Town%2C%20Pulau%20Pinang">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 11l19-9-9 19-2-8-8-2z"/></svg>Get directions
+        </a>
       </div>
     </div>
   </div>
@@ -747,6 +769,10 @@
         <p>Penang · <a href="tel:+6045108411">04-510 8411</a></p>
         <a href="mailto:cindylgk@cncolaw.my">cindylgk@cncolaw.my</a>
         <a href="mailto:cindypg@cncolaw.my">cindypg@cncolaw.my</a>
+        <a class="foot-social" href="https://www.facebook.com/profile.php?id=61582093223918" target="_blank" rel="noopener" aria-label="Cindy Ng & Co. on Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.06C22 6.5 17.52 2 12 2S2 6.5 2 12.06c0 5.02 3.66 9.18 8.44 9.94v-7.03H7.9v-2.9h2.54V9.85c0-2.51 1.49-3.9 3.78-3.9 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.78-1.63 1.57v1.88h2.78l-.44 2.9h-2.34V22c4.78-.76 8.44-4.92 8.44-9.94Z"/></svg>
+          Follow us on Facebook
+        </a>
       </div>
     </div>
     <div class="foot-bottom">
