@@ -1,0 +1,5 @@
+# robots.txt for Cindy Ng & Co.
+User-agent: *
+Allow: /
+
+Sitemap: https://www.cncolaw.my/sitemap.xml
