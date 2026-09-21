@@ -244,6 +244,18 @@
   .p-bio:last-of-type{margin-bottom:0}
   .p-tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:24px}
   .tag{font-size:.68rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold-soft);border:1px solid var(--line);padding:6px 13px;border-radius:1px}
+  /* associates — compact, no photo, clearly secondary to the partners */
+  .assoc-head{margin-top:clamp(28px,4vw,50px);padding-top:clamp(24px,3vw,34px);border-top:1px solid var(--line)}
+  .assoc-label{font-size:.7rem;letter-spacing:.28em;text-transform:uppercase;color:var(--gold)}
+  .assoc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),380px));gap:22px;margin-top:22px}
+  .assoc{background:var(--paper-2);border:1px solid var(--line-soft);border-left:3px solid var(--gold);padding:26px 28px}
+  .a-role{font-size:.64rem;letter-spacing:.24em;text-transform:uppercase;color:var(--gold)}
+  .a-name{font-family:var(--display);font-size:clamp(1.3rem,2.2vw,1.6rem);color:var(--parchment);margin:8px 0 5px;line-height:1.1}
+  .a-cred{font-size:.8rem;color:var(--muted);font-style:italic;font-family:var(--display)}
+  .a-cred .sep{color:var(--gold-deep);margin:0 7px}
+  .a-bio{color:var(--muted);font-size:.9rem;line-height:1.6;margin:16px 0 0}
+  .a-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:18px}
+  .a-tags .tag{font-size:.62rem;padding:5px 11px}
 
   /* ---------- clients (who we help) ---------- */
   .clients{background:var(--black)}
@@ -862,6 +874,22 @@
         </div>
       </div>
     </article>
+
+    <!-- Associates -->
+    <div class="assoc-head reveal">
+      <span class="assoc-label">Associates</span>
+    </div>
+    <div class="assoc-grid">
+      <article class="assoc reveal">
+        <span class="a-role">Legal Associate</span>
+        <h3 class="a-name">Nur Alya Liyana</h3>
+        <div class="a-cred">LL.B (Hons) IIUM <span class="sep">/</span> Advocate &amp; Solicitor, Malaya</div>
+        <p class="a-bio">Ms. Nur Alya Liyana obtained her LL.B (Hons) from the International Islamic University Malaysia (IIUM) and completed her pupillage with Messrs. Ezrilaw Firm. She joined Cindy Ng &amp; Co. in July 2026 as a Legal Associate and is presently involved primarily in civil litigation and dispute resolution, assisting in a range of contentious matters as well as the Firm's general practice.</p>
+        <div class="a-tags">
+          <span class="tag">Civil Litigation</span><span class="tag">Dispute Resolution</span><span class="tag">General Practice</span>
+        </div>
+      </article>
+    </div>
   </div>
 </section>
 
